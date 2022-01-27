@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
+body{
+    background-image: url("cool-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.miseEnPageGenerale{
+    margin:0 10% 0 10%;
+    }
+
+
+#principale {
+    background: linear-gradient(rgb(59, 86, 97), rgb(83, 148, 134));
+    padding-bottom: 2%;
+}
+p {
+    color: ivory ;
+}
+h1 {
+    color: darkslategray;
+    font-size: 1.5em;
+    text-align: center;
+}
+h5 {
+    color: darkslategray;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#sous_partie1{
+    background-color: rgb(83, 148, 134);
+    line-height: 1.50em;
+    padding-bottom: 5%;
+}
+
+#sous_partie2 {
+    background-color: rgb(83, 148, 134);
+    line-height: 1.50em;
+    padding-bottom: 5%;
+}
+.gauche {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+img{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 7%;
+    padding-left: 10%;
+}
+.droite {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: flex-end;
+}
+#sous_partie3 {
+    background-color: rgb(83, 148, 134);
+    line-height: 1.50em;
+    padding: 5%;
+}
+
+#sous_partie4 {
+    background-color: rgb(83, 148, 134);
+    line-height: 1.50em;
+    padding: 5%;
+}
+
+#sous_partie5 {
+    background-color: rgb(83, 148, 134);
+    line-height: 1.50em;
+    padding: 5%;
+}
+
+#sous_partie6 {
+    background-color: rgb(83, 148, 134);
+    line-height: 1.50em;
+    padding: 5%;
+}
+
+#sous_partie7 {
+    background: linear-gradient(rgb(83, 148, 134),rgb(59, 86, 97));
+    line-height: 1.50em;
+    padding: 5%;
+}
+@media (max-width : 1441px) {
+    img{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-left: 35%;
+}
+h5 {
+color: darkslategray;
+text-align: center;
+font-size: 1.5em;
+margin-left: 35%;
+}
+}
+@media screen and (max-width: 1080px){
+    img{
+            height: 180px;
+            width: 180px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding-left: 35%;
+}
+h5 {
+    color: darkslategray;
+    font-size: 1.5em;
+    margin-left: 30%;
+}
+    }
+@media (max-width : 680px) {
+    img{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-left: 25%;
+    }
+} 
+@media ( max-width : 768px ) {
+    img {
+       padding-left: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    h5 {
+        margin: 30%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+
+    }
+    }
